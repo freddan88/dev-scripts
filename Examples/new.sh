@@ -23,7 +23,7 @@ echo " "
   
   read -p "Do you accept yes/no (y/n): " answear
   
-  if [ $answear != y ]; then 
+  if [[ "$answear" != "y" ]]; then 
     $0 npmbuild
     exit
   fi
@@ -32,8 +32,15 @@ echo " "
   cd $path/$name
   
   git init
-  npm init
+  npm init -y
+  
   npm install rollup rollup-plugin-browsersync rollup-plugin-postcss node-sass postcss-normalize browserslist autoprefixer cssnano stylelint stylelint-config-standard
+  
+  # debs=$(cat package.json | grep -iA 1000 dependencies)
+  # debs=$(cat package.json | awk '/dependencies/,0')
+  # echo $debs
+  
+  
 ;;
 
 help)
