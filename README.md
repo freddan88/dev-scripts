@@ -19,7 +19,7 @@ wget
 
 <details>
   <summary>Packages and modules:</summary>
-  <a href="https://github.com/rollup/rollup#readme">Rollup</a>
+  <li><a href="https://github.com/rollup/rollup#readme">Rollup</a></li>
   <br/>
   [rollup-plugin-browsersync](https://github.com/4lejandrito/rollup-plugin-browsersync#readme)
   <br/>
