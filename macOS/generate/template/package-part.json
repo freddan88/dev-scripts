@@ -10,7 +10,7 @@
     "start": "rollup --config --watch --environment NODE_ENV:production",
     "test": "stylelint '**/*.scss'; exit 0",
     "www": "php -S 0.0.0.0:8585",
-    "help": "npx browserslist && echo 'Usage: npm run: build | start | test | www'"
+    "help": "echo Browsers supported and usage: && npx browserslist && echo ' ' && echo 'Usage: npm run: build | start | test | www' && echo ' '"
   },
   "stylelint": {
     "plugins": [
