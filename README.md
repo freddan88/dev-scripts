@@ -3,10 +3,16 @@ Scripts to help web developers speed up their work
 
 ## macOS
 
-_Download_
+#### Available Scripts:
 
-```bash
+#### More Download options:
+
+```BASH
 wget
+```
+
+```BASH
+curl
 ```
 
 #### Script: new.sh:
@@ -41,52 +47,60 @@ wget
 
 ## Windows
 
-_Download_
+#### Tested on
+* Windows 7 Home x64
+* Windows 10 Pro x64
 
-```
-Link:
-```
+#### Available Scripts:
+_Click to download as zip_
+
+* [phpsrv.bat]("Click here to download phpsrv.zip")
 
 #### Dependencies:
 
-A webserver with php eg XAMP, MAMP or WAMP
+A webserver with php eg XAMPP, MAMP or WAMP
 
 Links:
-* XAMPP
-* MAMP
-* WAMP
+* [XAMPP](https://www.apachefriends.org/index.html)
+* [MAMP](https://www.mamp.info/en/)
+* [WAMP](http://www.wampserver.com/en/)
 
-_Configuration_
+#### Configuration:
 
-Open the script5 in your text editor and edit below:
+_Open the script in your text editor and edit below:_
 
+```
 set my_port=8000
-set lan_int=Ethernet
+set lan_int=Local Area Connection
 set php_exe=C:\MAMP\bin\php\php7.2.10\php
 set browser=C:\Program Files (x86)\Google\Chrome\Application\chrome
-
-- php_exe: Needs to point to your executable.
-- This can be either MAMP, XAMPP or WAMPs php
-
-- lan_int: Needs to be changed to the name of your network adapter
-- You can start a new command window and type below command to reveal the name.
-
-- browser: Needs to be changed to the path for your prefered browser
-- Tip is to use either Google Chrome or Mozilla Firefox for development
-
-```CMD
-interface ip show addresses
 ```
+- php_exe: Needs to point to your executable.
+<br/>- This can be either MAMP, XAMPP or WAMPs php
 
-_Installation_
+- lan_int: Needs to be changed to the name of your network adapter.
+<br/>- Tip: In CMD you can type below command to reveal the name:
+```
+netsh interface ip show addresses
+```
+- browser: Needs to be changed to the path for your prefered browser
+<br/>- Tip is to use either Google Chrome or Mozilla Firefox for development
+
+#### Installation:
 
 REM Add this script to path
 REM Example: ;%HOMEDRIVE%%HOMEPATH%\script
 
 ## Linux
 
-_Download_
+#### Available Scripts:
 
 ```bash
 wget
 ```
+
+#### Dependencies:
+
+#### Configuration:
+
+#### Installation:
