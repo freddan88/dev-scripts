@@ -54,7 +54,7 @@ curl
 #### Available Scripts:
 _Click to download as zip_
 
-* [phpsrv.bat]("Click here to download phpsrv.zip")
+* [phpsrv.bat](https://github.com/freddan88/dev-scripts/blob/master/Windows/phpsrv.zip?raw=true "Click here to download phpsrv.zip")
 
 #### Dependencies:
 
@@ -64,6 +64,14 @@ Links:
 * [XAMPP](https://www.apachefriends.org/index.html)
 * [MAMP](https://www.mamp.info/en/)
 * [WAMP](http://www.wampserver.com/en/)
+
+#### Installation:
+
+1. Extract phpsrv.zip to the root of your C: drive
+2. 
+
+REM Add this script to path
+REM Example: ;%HOMEDRIVE%%HOMEPATH%\script
 
 #### Configuration:
 
@@ -85,11 +93,6 @@ netsh interface ip show addresses
 ```
 - browser: Needs to be changed to the path for your prefered browser
 <br/>- Tip is to use either Google Chrome or Mozilla Firefox for development
-
-#### Installation:
-
-REM Add this script to path
-REM Example: ;%HOMEDRIVE%%HOMEPATH%\script
 
 ## Linux
 
