@@ -47,7 +47,7 @@ curl
 
 ## Windows
 
-#### Tested on
+#### Tested on:
 * Windows 7 Home x64
 * Windows 10 Pro x64
 
@@ -67,11 +67,26 @@ Links:
 
 #### Installation:
 
-1. Extract phpsrv.zip to the root of your C: drive
-2. 
+Option 1:
 
-REM Add this script to path
-REM Example: ;%HOMEDRIVE%%HOMEPATH%\script
+1. Extract phpsrv.zip to the root of your C: drive
+2. Press Windows + R on your keyboard to start Run
+3. Type this command to open to configuration:
+```
+rundll32 sysdm.cpl,EditEnvironmentVariables
+```
+4. Click on Path in user defined variables and then edit
+5. Append this to the end of the value-string and save
+6. Open a new CMD and type phpsrv to start the server and browser
+
+Option 2:
+
+Open CMD and type:
+
+```
+set Path=%PATH%;C:\$Bin && setx Path "%PATH%"
+```
+... DO NOT WRITE THIS COMMAND TWICE OR MORE ...
 
 #### Configuration:
 
