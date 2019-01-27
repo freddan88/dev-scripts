@@ -1,4 +1,4 @@
-# dev-scripts
+# Dev-scripts
 Scripts to help web developers speed up their work
 
 ## macOS
@@ -14,8 +14,7 @@ wget
 #### Dependencies:
 
 * [Node.js with npm](https://nodejs.org/en/download/package-manager/)
-* [Google Chrome](https://www.google.com/chrome/)
-* [Mozilla Firefox](https://www.mozilla.org/en-US/)
+* [Google Chrome](https://www.google.com/chrome/) or [Mozilla Firefox](https://www.mozilla.org/en-US/)
 
 <details>
   <summary>Packages and modules:</summary>
@@ -46,6 +45,37 @@ _Download_
 
 ```
 Link:
+```
+
+#### Dependencies:
+
+A webserver with php eg XAMP, MAMP or WAMP
+
+Links:
+* XAMPP
+* MAMP
+* WAMP
+
+_Configuration_
+
+Open the script5 in your text editor and edit below:
+
+set my_port=8000
+set lan_int=Ethernet
+set php_exe=C:\MAMP\bin\php\php7.2.10\php
+set browser=C:\Program Files (x86)\Google\Chrome\Application\chrome
+
+- php_exe: Needs to point to your executable.
+- This can be either MAMP, XAMPP or WAMPs php
+
+- lan_int: Needs to be changed to the name of your network adapter
+- You can start a new command window and type below command to reveal the name.
+
+- browser: Needs to be changed to the path for your prefered browser
+- Tip is to use either Google Chrome or Mozilla Firefox for development
+
+```CMD
+interface ip show addresses
 ```
 
 _Installation_

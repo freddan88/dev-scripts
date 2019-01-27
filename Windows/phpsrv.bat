@@ -1,17 +1,17 @@
 @echo OFF
 setlocal EnableDelayedExpansion
-title PHP Server Script v2.1.1 - Windows
+title PHP Server Script v2.1.2 - Windows
 
 REM Author: Fredrik Leemann
 REM GitHub: https://github.com/freddan88/dev-scripts
 
 REM Config:
 set my_port=8000
-set lan_int=Ethernet
+set lan_int=Local Area Connection
 set php_exe=C:\MAMP\bin\php\php7.2.10\php
-set browser=chrome
+set browser="C:\Program Files (x86)\Google\Chrome\Application\chrome"
 
-REM --------------
+REM ----------------------------------------------------------------
 echo.
 netsh interface ip show addresses "%lan_int%" | find "IP" > ipv4.log
 
