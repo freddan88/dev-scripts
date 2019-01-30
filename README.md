@@ -76,7 +76,11 @@ Option 1:
 rundll32 sysdm.cpl,EditEnvironmentVariables
 ```
 4. Click on Path in user defined variables and then edit
-5. Append this to the end of the value-string and save
+5. Append this to the end of the value-string and click save
+
+```
+;C:\$Bin
+```
 6. Open a new CMD and type phpsrv to start the server and browser
 
 Option 2:
