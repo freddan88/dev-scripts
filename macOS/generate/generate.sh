@@ -58,7 +58,7 @@ echo " "
   echo $dependencies | tr , '\n' | sed 's/$/,/' | sed '$s/,//' >> package-part.json
   rm package.json && mv package-part.json package.json
 
-  npm run help
+  npm run help | tail -n +4
 ;;
 
 git_repo)
