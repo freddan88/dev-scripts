@@ -13,13 +13,13 @@ This script will launch a small php/http server in the current working directory
 ###### Tested on:
 
 ###### Dependencies:
-_You need to have PHP and a Web Browser, se examples below:_ 
+_You need to have PHP and a Web Browser installed:_ 
 > Examples:
 - Browser: Google Chrome
 - Browser: Mozilla Firefox
 - PHP: Bundled in MAMP
 - PHP: Bundled in XAMP
-- PHP: PHP.net
+- PHP: From PHP.net
 
 ###### Installation:
 1 Download you extract the script from your terminal
@@ -53,14 +53,14 @@ _Open a new terminal and type phpsrv_
 - Windows 10 Pro x64
 
 ###### Dependencies:
-_You need to have PHP and a Web Browser, se examples below:_ 
+_You need to have PHP and a Web Browser installed:_ 
 > Examples:
 - Browser: Google Chrome
 - Browser: Mozilla Firefox
 - PHP: Bundled in MAMP
 - PHP: Bundled in WAMP
 - PHP: Bundled in XAMPP
-- PHP: PHP.net
+- PHP: From PHP.net
 
 ###### Installation:
 
@@ -82,7 +82,7 @@ _Open a new prompt (CMD) and type phpsrv_
 ###### Tested on:
 
 ###### Dependencies:
-_You need to have PHP and a Web Browser, se examples below:_ 
+_You need to have PHP and a Web Browser installed:_ 
 > Examples:
 - Browser: Google Chrome
 - Browser: Mozilla Firefox
@@ -91,7 +91,7 @@ _You need to have PHP and a Web Browser, se examples below:_
 - PHP: Bundled in LAMP CentOS7
 - PHP: Bundled in HTTPSRV
 - PHP: Bundled in XAMP
-- PHP: PHP.net
+- PHP: From PHP.net
 
 ###### Installation:
 1 Download you extract the script from your terminal
