@@ -55,12 +55,12 @@ _Open a new terminal and type phpsrv_
 ###### Dependencies:
 _You need to have PHP and a Web Browser installed:_ 
 > Examples:
-- Browser: Google Chrome
-- Browser: Mozilla Firefox
-- PHP: Bundled in MAMP
-- PHP: Bundled in WAMP
-- PHP: Bundled in XAMPP
-- PHP: From PHP.net
+> - Browser: Google Chrome
+> - Browser: Mozilla Firefox
+> - PHP: Bundled in MAMP
+> - PHP: Bundled in WAMP
+> - PHP: Bundled in XAMPP
+> - PHP: From PHP.net
 
 ###### Installation:
 
@@ -84,14 +84,14 @@ _Open a new prompt (CMD) and type phpsrv_
 ###### Dependencies:
 _You need to have PHP and a Web Browser installed:_ 
 > Examples:
-- Browser: Google Chrome
-- Browser: Mozilla Firefox
-- PHP: Bundled in LAMP Ubuntu
-- PHP: Bundled in LAMP CentOS6
-- PHP: Bundled in LAMP CentOS7
-- PHP: Bundled in HTTPSRV
-- PHP: Bundled in XAMP
-- PHP: From PHP.net
+> - Browser: Google Chrome
+> - Browser: Mozilla Firefox
+> - PHP: Bundled in LAMP Ubuntu
+> - PHP: Bundled in LAMP CentOS6
+> - PHP: Bundled in LAMP CentOS7
+> - PHP: Bundled in HTTPSRV
+> - PHP: Bundled in XAMP
+> - PHP: From PHP.net
 
 ###### Installation:
 1 Download you extract the script from your terminal
