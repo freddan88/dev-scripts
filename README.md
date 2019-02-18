@@ -13,7 +13,7 @@ This script will launch a small php/http server in the current working directory
 ###### Tested on:
 
 ###### Dependencies:
-_You need to have PHP and a Web Browser installed:_ 
+_You need to have PHP a Web Browser and some tools installed:_ 
 > Examples:
 > - Browser: Google Chrome
 > - Browser: Mozilla Firefox
@@ -22,9 +22,10 @@ _You need to have PHP and a Web Browser installed:_
 > - PHP: From PHP.net
 
 ###### Installation:
-1 Download you extract the script from your terminal
+1 Download and extract the script from your terminal
 ```BASH
 wget
+unzip
 ```
 2 Change permissions on the script to make it executable
 ```BASH
@@ -82,7 +83,7 @@ _Open a new prompt (CMD) and type phpsrv_
 ###### Tested on:
 
 ###### Dependencies:
-_You need to have PHP and a Web Browser installed:_ 
+_You need to have PHP a Web Browser and some tools installed:_ 
 > Examples:
 > - Browser: Google Chrome
 > - Browser: Mozilla Firefox
