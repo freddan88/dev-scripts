@@ -1,57 +1,57 @@
 #!/bin/bash
 #
-# Version 1.0.0
+# Version 1.1.1
 #
-## Do not edit bellow this line!!!
+## Do not edit below this line!!!
 ##################################
 
 case $1 in
 
-npm_rollup)
+rollup)
 
 rollup_restart () {
-  $0 npm_rollup
+  $0 rollup
 }
 
 echo " "
   read -p "Enter project name (Max 15 characters): " name
-  
+
   if [[ -z $name ]]; then
     rollup_restart
     exit
   fi
-  
+
   path=$(pwd)
-  
+
   echo " "
   echo "Your project will be created at:"
   echo $path/$(echo $name | cut -c -15)
   echo " "
-  
+
   read -p "Do you accept yes/no (y/n): " answear
-  
-  if [[ "$answear" != "y" ]]; then 
+
+  if [[ "$answear" != "y" ]]; then
     rollup_restart
     exit
   fi
-  
+
   if [[ -d $path/$name ]]; then
     echo " "
     echo -e "\033[0;31mThe specified directory already exists\033[0m"
     rollup_restart
   fi
-  
+
   mkdir $path/$name
   scriptdir=$(dirname $0)
   cp -R $scriptdir/template/* $path/$name
   cd $path/$name
-  
+
   echo " "
   git init
   npm init -y >/dev/null
-  
+
   npm i autoprefixer browserslist cssnano node-sass postcss-normalize stylelint stylelint-{config-standard,scss} rollup rollup-{plugin-babel,plugin-browsersync,plugin-commonjs,plugin-filesize,plugin-node-resolve,plugin-postcss,plugin-terser} @babel/{core,preset-env}
-  
+
   # debs=$(cat package.json | grep -iA 1000 dependencies)
   dependencies=$(cat package.json | awk '/dependencies/,0')
   # echo $dependencies >> package-part.json && rm package.json
@@ -61,7 +61,7 @@ echo " "
   npm run help | tail -n +4
 ;;
 
-git_repo)
+gitrepo)
 echo " "
   echo "Feature not implemented yet!"
 ;;
@@ -73,7 +73,7 @@ echo " "
 
 *)
 echo " "
-	echo "Argumets: npm_rollup | git_repo | help"
+	echo "Argumets: rollup | gitrepo | help"
 echo " "
 ;;
 
