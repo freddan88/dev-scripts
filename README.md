@@ -15,11 +15,11 @@ This script will launch a small php/http server in the current working directory
 ###### Dependencies:
 _You need to have PHP and a Web Browser installed:_ 
 > Examples:
-- Browser: Google Chrome
-- Browser: Mozilla Firefox
-- PHP: Bundled in MAMP
-- PHP: Bundled in XAMP
-- PHP: From PHP.net
+> - Browser: Google Chrome
+> - Browser: Mozilla Firefox
+> - PHP: Bundled in MAMP
+> - PHP: Bundled in XAMP
+> - PHP: From PHP.net
 
 ###### Installation:
 1 Download you extract the script from your terminal
