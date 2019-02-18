@@ -2,13 +2,15 @@
 Scripts to help web developers speed up their work...
 
 ### Available Scripts:
-* phpsrv
-* npmgensh
+|Script name|  macOS  | Windows |  Linux  |
+|:---|:---:|:---:|:---:|
+|phpsrv|Available|Available|Available|
+|npmgensh|Available|Not available|Not available|
 
 #### phpsrv
 This script will launch a small php/http server in the current working directory
 
-##### macOS
+##### macOS-phpsrv
 
 ###### Tested on:
 
@@ -47,7 +49,7 @@ _Open a new terminal and type phpsrv_
 /Users/user/Desktop: phpsrv
 ```
 ---
-##### Windows
+##### Windows-phpsrv
 
 ###### Tested on:
 - Windows 7 Home x64
@@ -78,7 +80,7 @@ _Open a new prompt (CMD) and type phpsrv_
 ```
 ---
 
-##### Linux
+##### Linux-phpsrv
 
 ###### Tested on:
 
