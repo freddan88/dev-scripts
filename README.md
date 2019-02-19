@@ -66,13 +66,11 @@ _You need to have PHP and a Web Browser installed:_
 > - PHP: [From PHP.net](https://secure.php.net/downloads.php)
 
 ###### Installation:
-_Click to download as zip_
-* [phpsrv.bat](Windows/phpsrv.zip?raw=true "Click here to download phpsrv.zip")
-
-
-* 1 Extract phpsrv.zip to the root of your C: drive
-* 2 Press Windows + R on your keyboard to start Run
-* 3 Type this command to open to configuration:
+_Extract the script and add it to the Windows PATH_
+* 1 [Click here to download file as zip (phpsrv.bat)](Windows/phpsrv.zip?raw=true "Click here to download phpsrv.zip")
+* 2 Extract phpsrv.zip to the root of your C: drive
+* 3 Press "Win + R" on your keyboard to start Run
+* 4 Type this command to open the configuration window
 
 ```
 rundll32 sysdm.cpl,EditEnvironmentVariables
@@ -86,13 +84,13 @@ rundll32 sysdm.cpl,EditEnvironmentVariables
 
 ###### Configuration:
 _Open the script in your text editor and edit below:_
-
 ```
 set my_port=8000
 set lan_int=Local Area Connection
 set php_exe=C:\MAMP\bin\php\php7.2.10\php
 set browser=C:\Program Files (x86)\Google\Chrome\Application\chrome
 ```
+
 - php_exe: Needs to point to your executable.
 <br/>- This can be either MAMP, XAMPP or WAMPs php
 
