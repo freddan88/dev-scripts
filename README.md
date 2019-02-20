@@ -4,8 +4,8 @@ Scripts to help web developers speed up their work...
 ### Available Scripts:
 |Script name|  macOS  | Windows |  Linux  |
 |:---|:---:|:---:|:---:|
-|phpsrv|Available|Available|Available|
-|npmgensh|Available|Not available|Not available|
+|[phpsrv](#phpsrv)|Available|Available|Available|
+|[npmgensh](#npmgensh)|Available|Not available|Not available|
 
 #### phpsrv
 This script will launch a small php/http server in the current working directory
@@ -17,8 +17,8 @@ This script will launch a small php/http server in the current working directory
 ###### Dependencies:
 _You need to have PHP a Web Browser and some tools installed:_ 
 > Examples:
-> - Browser: Google Chrome
-> - Browser: Mozilla Firefox
+> - Example Browser: Chrome
+> - Example Browser: Firefox
 > - PHP: Bundled in MAMP
 > - PHP: Bundled in XAMP
 > - PHP: From PHP.net
@@ -58,8 +58,8 @@ _Open a new terminal and type phpsrv_
 ###### Dependencies:
 _You need to have PHP and a Web Browser installed:_ 
 > Examples:
-> - Browser: Google Chrome
-> - Browser: Mozilla Firefox
+> - Example Browser: Chrome
+> - Example Browser: Firefox
 > - PHP: [Bundled in XAMPP](https://www.apachefriends.org/index.html)
 > - PHP: [Bundled in MAMP](https://www.mamp.info/en/)
 > - PHP: [Bundled in WAMP](http://www.wampserver.com/en/)
@@ -118,8 +118,8 @@ C:\htdocs>phpsrv
 ###### Dependencies:
 _You need to have PHP a Web Browser and some tools installed:_ 
 > Examples:
-> - Browser: Google Chrome
-> - Browser: Mozilla Firefox
+> - Example Browser: Chrome
+> - Example Browser: Firefox
 > - PHP: Bundled in LAMP Ubuntu
 > - PHP: Bundled in LAMP CentOS6
 > - PHP: Bundled in LAMP CentOS7
