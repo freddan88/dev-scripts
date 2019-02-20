@@ -15,13 +15,13 @@ This script will launch a small php/http server in the current working directory
 ###### Tested on:
 
 ###### Dependencies:
-_You need to have PHP a Web Browser and some tools installed:_ 
+_You need to have PHP and a Web Browser installed:_ 
 > Examples:
-> - Example Browser: Chrome
-> - Example Browser: Firefox
-> - PHP: Bundled in MAMP
-> - PHP: Bundled in XAMP
-> - PHP: From PHP.net
+> - Example Browser: [Chrome](https://www.google.com/chrome/)
+> - Example Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+> - PHP: [Bundled in XAMPP](https://www.apachefriends.org/index.html)
+> - PHP: [Bundled in MAMP](https://www.mamp.info/en/)
+> - PHP: [From PHP.net](https://secure.php.net/downloads.php)
 
 ###### Installation:
 1 Download and extract the script from your terminal
@@ -58,8 +58,8 @@ _Open a new terminal and type phpsrv_
 ###### Dependencies:
 _You need to have PHP and a Web Browser installed:_ 
 > Examples:
-> - Example Browser: Chrome
-> - Example Browser: Firefox
+> - Example Browser: [Chrome](https://www.google.com/chrome/)
+> - Example Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 > - PHP: [Bundled in XAMPP](https://www.apachefriends.org/index.html)
 > - PHP: [Bundled in MAMP](https://www.mamp.info/en/)
 > - PHP: [Bundled in WAMP](http://www.wampserver.com/en/)
@@ -118,27 +118,37 @@ C:\htdocs>phpsrv
 ###### Dependencies:
 _You need to have PHP a Web Browser and some tools installed:_ 
 > Examples:
-> - Example Browser: Chrome
-> - Example Browser: Firefox
-> - PHP: Bundled in LAMP Ubuntu
-> - PHP: Bundled in LAMP CentOS6
-> - PHP: Bundled in LAMP CentOS7
-> - PHP: Bundled in HTTPSRV
-> - PHP: Bundled in XAMP
-> - PHP: From PHP.net
+> - Example Browser: [Chrome](https://support.google.com/chrome/a/answer/9025903?hl=en)
+> - Example Browser: [Firefox](https://www.mozilla.org/en-US/firefox/linux/)
+> - PHP: [Bundled in LAMP Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04)
+> - PHP: [Bundled in LAMP CentOS6](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-6)
+> - PHP: [Bundled in LAMP CentOS7](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7)
+> - PHP: [Bundled in HTTPSRV](http://www.leemann.se/fredrik/tutorials/project-httpsrv-v2-deb-rpm-based-linux)
+> - PHP: [Bundled in XAMP](https://www.apachefriends.org/index.html)
+> - PHP: [From PHP.net](https://secure.php.net/downloads.php)
+> - Tool: wget
+
+Ubuntu
+```BASH
+sudo apt-get install wget
+```
+CentOS
+```BASH
+yum install wget
+```
 
 ###### Installation:
 1 Download you extract the script from your terminal
 ```BASH
-wget
+wget URL/phpsrv.sh
 ```
 2 Change permissions on the script to make it executable
 ```BASH
-chmod 754 phpsrv
+chmod 754 phpsrv.sh
 ```
 3 Create a link to a directory in your Path
 ```BASH
-ln -s
+ln -s example example
 ```
 ###### Configuration:
 ```
