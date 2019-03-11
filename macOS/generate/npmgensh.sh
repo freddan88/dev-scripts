@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Version 1.1.1
+# Version 1.5.0
 #
 ## Do not edit below this line!!!
 ##################################
@@ -50,7 +50,7 @@ echo " "
   git init
   npm init -y >/dev/null
 
-  npm i autoprefixer browserslist cssnano node-sass postcss-normalize stylelint stylelint-{config-standard,scss} rollup rollup-{plugin-babel,plugin-browsersync,plugin-commonjs,plugin-filesize,plugin-node-resolve,plugin-postcss,plugin-terser} @babel/{core,preset-env}
+  npm i autoprefixer browserslist build cssnano gh-pages node-sass postcss-normalize semistandard snazzy uglify-js stylelint stylelint-{config-standard,scss} rollup rollup-{plugin-babel,plugin-browsersync,plugin-commonjs,plugin-filesize,plugin-inject-env,plugin-node-resolve,plugin-postcss,plugin-terser} @babel/{core,preset-env}
 
   # debs=$(cat package.json | grep -iA 1000 dependencies)
   dependencies=$(cat package.json | awk '/dependencies/,0')
@@ -58,6 +58,7 @@ echo " "
   echo $dependencies | tr , '\n' | sed 's/$/,/' | sed '$s/,//' >> package-part.json
   rm package.json && mv package-part.json package.json
 
+  npm audit fix
   npm run help | tail -n +4
 ;;
 
